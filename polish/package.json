@@ -1,0 +1,25 @@
+{
+    "name": "polish",
+    "displayName": "Polish",
+    "description": "Syntax defintion using Polish notation",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.46.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "polish",
+            "aliases": ["Polish", "polish"],
+            "extensions": [".pol"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "polish",
+            "scopeName": "source.polish",
+            "path": "./syntaxes/polish.tmLanguage.json"
+        }]
+    }
+}
